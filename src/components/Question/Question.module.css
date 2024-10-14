@@ -1,0 +1,15 @@
+.container {
+  background-color: rgba(180, 218, 230, 0.749);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.radios>div>* {
+  cursor: pointer;
+}
